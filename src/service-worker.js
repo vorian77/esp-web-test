@@ -1,5 +1,3 @@
-/// <reference lib="webworker" />
-
 import { build, files, version } from '$service-worker'
 
 const worker = self
