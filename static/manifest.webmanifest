@@ -1,0 +1,11 @@
+{
+	"name": "KidSmart ESP Web",
+	"short_name": "kssc-esp-web",
+	"id": "esp-web",
+	"start_url": "/",
+	"scope": "/",
+	"icons": [],
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff",
+	"display": "fullscreen"
+}

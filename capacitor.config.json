@@ -1,0 +1,6 @@
+{
+  "appId": "espweb.kssc.com",
+  "appName": "esp-web",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
