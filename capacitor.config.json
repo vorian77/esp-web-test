@@ -1,6 +1,6 @@
 {
-  "appId": "espweb.kssc.com",
-  "appName": "esp-web",
-  "webDir": "dist",
-  "bundledWebRuntime": false
+	"appId": "com.theformfactory.esp-mobile",
+	"appName": "MOED-YO Mobile",
+	"webDir": "dist",
+	"bundledWebRuntime": false
 }

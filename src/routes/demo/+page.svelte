@@ -26,7 +26,7 @@
 	<h1>Original: {picture}</h1>
 	<h1>new: {newPicture}</h1>
 	<ion-card>
-		<ion-title size="large">Ionic - Geolocation</ion-title>
+		<ion-title size="large">Capacitor Geolocation Test</ion-title>
 		<p>Your location is:</p>
 		<p>Latitude: {loc?.coords.latitude}</p>
 		<p>Longitude: {loc?.coords.longitude}</p>
@@ -34,7 +34,7 @@
 	</ion-card>
 
 	<ion-card>
-		<ion-title size="large">Ionic - Camera</ion-title>
+		<ion-title size="large">Capacitor Camera Test</ion-title>
 		<img class="fit-picture" src={newPicture || picture} alt="pic from camera" />
 		<ion-button expand="block" on:click={takePicture}>Take Picture</ion-button>
 	</ion-card>

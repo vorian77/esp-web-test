@@ -1,2 +1,2 @@
-export const APP_NAME = 'ESP-Web'
-export const APP_DESCRIPTION = 'ESP-Web'
+export const APP_NAME = 'MOED Mobile'
+export const APP_DESCRIPTION = 'MOED-Youth Opportunity Mobile Access'

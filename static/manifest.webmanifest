@@ -1,10 +1,22 @@
 {
-	"name": "KidSmart ESP Web",
-	"short_name": "kssc-esp-web",
-	"id": "esp-web",
+	"name": "MOED-YO Mobile Client",
+	"short_name": "MOED-Mobile",
+	"id": "moed-mobile",
+	"description": "Progressive Web App that provides mobile client features for the KSSC Enabling Software Platform.",
 	"start_url": "/",
 	"scope": "/",
-	"icons": [],
+	"icons": [
+		{
+			"src": "/icon-job-seeker-96x96.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		},
+		{
+			"src": "/icon-job-seeker-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	],
 	"theme_color": "#ffffff",
 	"background_color": "#ffffff",
 	"display": "fullscreen"
