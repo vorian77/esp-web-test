@@ -9,8 +9,6 @@
 		loc = res
 	}
 
-	//let picture
-	//let picture = '../src/lib/images/pants.jpg'
 	let newPicture
 	const takePicture = async () => {
 		const image = await Camera.getPhoto({

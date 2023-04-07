@@ -1,6 +1,6 @@
 {
 	"name": "MOED-YO Mobile Client",
-	"short_name": "MOED-Mobile",
+	"short_name": "MOED Mobile",
 	"id": "moed-mobile",
 	"description": "Progressive Web App that provides mobile client features for the KSSC Enabling Software Platform.",
 	"start_url": "/",

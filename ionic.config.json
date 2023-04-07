@@ -1,0 +1,7 @@
+{
+	"name": "MOED Mobile",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "custom"
+}
