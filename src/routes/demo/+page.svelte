@@ -1,6 +1,7 @@
 <script>
 	import { Geolocation } from '@capacitor/geolocation'
 	import { Camera, CameraResultType } from '@capacitor/camera'
+	import picture from '$lib/images/shirt.jpg'
 
 	let loc = null
 	async function getCurrentPosition() {
@@ -8,20 +9,22 @@
 		loc = res
 	}
 
-	let picture = '../src/lib/assets/cup.jpg'
-
+	//let picture
+	//let picture = '../src/lib/images/pants.jpg'
+	let newPicture
 	const takePicture = async () => {
 		const image = await Camera.getPhoto({
 			quality: 90,
 			allowEditing: true,
 			resultType: CameraResultType.Uri
 		})
-		picture = image.webPath
+		newPicture = image.webPath
 	}
 </script>
 
 <ion-content fullscreen>
-	<h1>{picture}</h1>
+	<h1>Original: {picture}</h1>
+	<h1>new: {newPicture}</h1>
 	<ion-card>
 		<ion-title size="large">Ionic - Geolocation</ion-title>
 		<p>Your location is:</p>
@@ -32,7 +35,7 @@
 
 	<ion-card>
 		<ion-title size="large">Ionic - Camera</ion-title>
-		<img class="fit-picture" src={picture} alt="pic from camera" />
+		<img class="fit-picture" src={newPicture || picture} alt="pic from camera" />
 		<ion-button expand="block" on:click={takePicture}>Take Picture</ion-button>
 	</ion-card>
 </ion-content>

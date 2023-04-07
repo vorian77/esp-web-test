@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>{APP_NAME}</title>
-	<meta name="description" content={APP_DESCRIPTION} /> -->
+	<meta name="description" content={APP_DESCRIPTION} />
 </svelte:head>
 
 <ion-app>
