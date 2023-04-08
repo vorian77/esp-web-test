@@ -3,7 +3,7 @@
 	import logo from '$lib/images/waze-welcome.png'
 </script>
 
-<div class="flexbox-container">
+<div class="flexbox-container" overflow:hidden>
 	<div class="flexbox-item flexbox-item-1" />
 	<div class="flexbox-item flexbox-item-2">
 		<img class="logo" src={logo} alt="logo" />
