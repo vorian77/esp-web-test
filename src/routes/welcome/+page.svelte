@@ -71,7 +71,7 @@
 		margin: 10px;
 	}
 	.flexbox-item-1 {
-		min-height: 100px;
+		min-height: 30px;
 	}
 	.flexbox-item-2 {
 		min-height: 300px;
